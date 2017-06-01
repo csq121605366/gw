@@ -50,7 +50,7 @@
 
 
 <section class="cnt">
-       <div class="m-banner">
+    <div class="m-banner">
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -77,85 +77,43 @@
             <div class="swiper-button-prev"></div>
         </div>
     </div>
-    
-    <div class="m-show">
+
+
+    <div class="m-msg">
         <div class="container">
-            <div class="hd">
-                <h4 class="hd__tit">PRODUCT</h4>
-                <p class="hd__txt">案例展示</p>
-                <p>聚合行业内资源，改变传统作坊式外包模式,便捷、开放、优质、高效、开创游戏美术外包新时代</p>
-            </div>
-            <div class="bd row">
-                <div class="col s12 m6 l4">
-                    <img class="responsive-img materialboxed" src="/assets/images/pic1.jpg">
-                </div>
-                <div class="col s12 m6 l4">
-                    <img class="responsive-img materialboxed" src="/assets/images/pic2.jpg">
-                </div>
-                <div class="col s12 m6 l4">
-                    <img class="responsive-img materialboxed" src="/assets/images/pic3.jpg">
-                </div>
-                <div class="col s12 m6 l4">
-                    <img class="responsive-img materialboxed" src="/assets/images/pic4.jpg">
-                </div>
-                <div class="col s12 m6 l4">
-                    <img class="responsive-img materialboxed" src="/assets/images/pic5.jpg">
-                </div>
-                <div class="col s12 m6 l4">
-                    <img class="responsive-img materialboxed" src="/assets/images/pic6.jpg">
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-<footer class="m-contact m-contact--white">
-    <div class="container">
-        <h3 class="m-contact__tit">CONTACT</h3>
-        <p class="m-contact__tit m-contact__tit--sub mb40">联系我们</p>
-        <div class="row">
-            <div class="col s12 m6 m-contact__link">
-                <h4 class="m-contact__link__tit">IT DESIGN</h4>
-                <p>Tel：020-000000 400-000000</p>
-                <p>Mobile：130000000</p>
-                <p>QQ：258506508</p>
-                <p>Email：qinfengyunxun@163.com</p>
-                <p>Address：湖北省武汉市洪山区世界城广场写字楼1406</p>
-            </div>
-            <div class="col s12 m6">
+            <p>发表您的留言:</p>
+            <form>
                 <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s8">
-                                <input id="username" name="username" type="text" class="validate">
-                                <label for="username">姓名</label>
-                            </div>
-                            <div class="input-field col s8">
-                                <input id="email" name="email" type="email" class="validate">
-                                <label for="email">邮箱</label>
-                            </div>
-                            <div class="input-field col s8">
-                                <textarea id="textarea1" class="materialize-textarea" class="validate" length="20"></textarea>
-                                <label for="textarea1">内容</label>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                 <div class="input-field col s12 m4">
+                  <input id="username" type="text" class="validate">
+                  <label for="username">姓名</label>
+              </div>
+              <div class="input-field col s12 m4">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">邮箱</label>
+              </div>
+              <div class="input-field col s12 m4">
+                  <input id="phone" type="text"  class="validate">
+                  <label for="phone">电话</label>
+              </div>
+              <div class="input-field col s12">
+                  <textarea placeholder="留言需要审核后才会显示" id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">内容</label>
+              </div>
+          </div>
+          <div class="row">
+              <div class="input-field col s12 m3">
+                <input id="veri" type="text"  class="validate">
+                <label for="veri">验证码</label>
             </div>
         </div>
-    </div>
-    <div class="m-map row">
-    <div class="col s12 m12 l6 offset-l3">
-            <div id="map">
-
-            </div>
+        <div class="row">
+            <button type="submit" class="waves-effect waves-light btn white-text">提交</button>
         </div>
-        
-    </div>
-
-</footer>
+    </form>
+</div>
+</div>
+</section>
 
 
 
@@ -176,7 +134,6 @@
   "pkg": {}
 });</script>
 <script type="text/javascript" src="/assets/js/common.js"></script>
-<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=MhdTi8ClYYqNTLG6TXZP9edTXZLDGGsb"></script>
 <script type="text/javascript">
     require('common');
     require.async(['swiper/swiper.min'], function(swiper) {
@@ -190,7 +147,6 @@
             loop: true
         });
     })
-    
 </script>
 </body>
 

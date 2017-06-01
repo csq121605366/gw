@@ -17,7 +17,8 @@ $bc:#0E78F0;
 
 .m-banner {
     width: 100%;
-    height: 650px;
+    max-height: 450px;
+    overflow: hidden;
     .swiper-container {
         width: 100%;
         height: 100%;
@@ -31,6 +32,7 @@ $bc:#0E78F0;
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;       
     }
 }
 
@@ -168,6 +170,9 @@ $bc:#0E78F0;
     overflow: hidden;
     &--white{
         background-color: #fff;
+        .m-contact__tit{
+            color:$bc;
+        }
     }
     &__tit {
         text-align: center;
@@ -190,6 +195,7 @@ $bc:#0E78F0;
 
 
 .m-show{
+
     margin-bottom: 5rem;
     .hd{
         text-align: center;
@@ -197,10 +203,11 @@ $bc:#0E78F0;
         padding: 80px 0 80px 0;
         p{  
             padding: 0 30%;
-            color: #999;
+            
             font-size: 1rem;
             line-height: 2;
             &+p{
+                color: #999;
                 padding-top: 40px;
             }
         }
@@ -208,10 +215,16 @@ $bc:#0E78F0;
     .col{
         padding:10px; 
     }
-
 }
+
+
+
 #map{
-    height: 500px;
-    width: 500px;
-    margin: 100px auto 0;
+    margin-top:160px;
+    height:500px;
+    width:100%;
+}
+.m-msg{
+    padding-top:60px;
+    padding-bottom:100px;
 }

@@ -1,0 +1,100 @@
+<link rel="import" type="text/css" href="../com/header.html?__inline">
+
+
+<section class="cnt">
+    <div class="m-banner">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="responsive-img" src="assets/images/banner1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img class="responsive-img" src="assets/images/banner2.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img class="responsive-img" src="assets/images/banner3.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img class="responsive-img" src="assets/images/banner4.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img class="responsive-img" src="assets/images/banner5.jpg">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+
+    <div class="m-msg">
+        <div class="container">
+            <p>发表您的留言:</p>
+            <form>
+                <div class="row">
+                 <div class="input-field col s12 m4">
+                  <input id="username" type="text" class="validate">
+                  <label for="username">姓名</label>
+              </div>
+              <div class="input-field col s12 m4">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">邮箱</label>
+              </div>
+              <div class="input-field col s12 m4">
+                  <input id="phone" type="text"  class="validate">
+                  <label for="phone">电话</label>
+              </div>
+              <div class="input-field col s12">
+                  <textarea placeholder="留言需要审核后才会显示" id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">内容</label>
+              </div>
+          </div>
+          <div class="row">
+              <div class="input-field col s12 m3">
+                <input id="veri" type="text"  class="validate">
+                <label for="veri">验证码</label>
+            </div>
+        </div>
+        <div class="row">
+            <button type="submit" class="waves-effect waves-light btn white-text">提交</button>
+        </div>
+    </form>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+<!-- 打包的js -->
+<script type="text/javascript" src="/assets/js/qfyxCom.js"></script><!--ignore-->
+
+<!--RESOURCEMAP_PLACEHOLDER-->
+<!--SCRIPT_PLACEHOLDER-->
+
+
+<script type="text/javascript">
+    require('/assets/js/common');
+    require.async('/assets/plugins/jquery/swiper/swiper.min.js', function(swiper) {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true
+        });
+    })
+</script>
+</body>
+
+
+</html>

@@ -1,9 +1,9 @@
 .c-hd .brand-logo{height:64px;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
 .c-hd .brand-logo img{height:80%}
 .c-hd .button-collapse .iconfont{font-size:26px}
-.m-banner{width:100%;height:650px}
+.m-banner{width:100%;max-height:450px;overflow:hidden}
 .m-banner .swiper-container{width:100%;height:100%;margin-left:auto;margin-right:auto}
-.m-banner .swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.m-banner .swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center;overflow:hidden}
 .m-culture .hd{margin-top:180px;margin-bottom:100px;text-align:center;color:#0E78F0}
 .m-culture .hd__tit{font-size:3rem}
 .m-culture .hd__p{font-size:2rem}
@@ -31,6 +31,7 @@
 .m-aboutUs__txt{line-height:3;padding:20px 0}
 .m-contact{background-color:#111;padding-top:40px;padding-bottom:40px;color:#999;overflow:hidden}
 .m-contact--white{background-color:#fff}
+.m-contact--white .m-contact__tit{color:#0E78F0}
 .m-contact__tit{text-align:center;font-size:2rem;color:#fff}
 .m-contact__tit--sub{font-size:1rem}
 .m-contact input{color:#999!important}
@@ -38,7 +39,8 @@
 .m-contact__link__tit{padding-bottom:20px}
 .m-show{margin-bottom:5rem}
 .m-show .hd{text-align:center;color:#0E78F0;padding:80px 0}
-.m-show .hd p{padding:0 30%;color:#999;font-size:1rem;line-height:2}
-.m-show .hd p+p{padding-top:40px}
+.m-show .hd p{padding:0 30%;font-size:1rem;line-height:2}
+.m-show .hd p+p{color:#999;padding-top:40px}
 .m-show .col{padding:10px}
-#map{height:500px;width:500px;margin:100px auto 0}
+#map{margin-top:160px;height:500px;width:100%}
+.m-msg{padding-top:60px;padding-bottom:100px}
