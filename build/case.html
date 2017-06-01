@@ -1,0 +1,128 @@
+<link rel="import" type="text/css" href="../com/header.html?__inline">
+
+
+<section class="cnt">
+    <div class="m-banner">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    
+    <div class="m-show">
+        <div class="container">
+            <div class="hd">
+                <h4 class="hd__tit">PRODUCT</h4>
+                <p class="hd__txt">案例展示</p>
+                <p>聚合行业内资源，改变传统作坊式外包模式,便捷、开放、优质、高效、开创游戏美术外包新时代</p>
+            </div>
+            <div class="bd row">
+                <div class="col s12 m6 l4">
+                    <img class="responsive-img" src="assets/images/pic1.jpg">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img class="responsive-img" src="assets/images/pic2.jpg">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img class="responsive-img" src="assets/images/pic3.jpg">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img class="responsive-img" src="assets/images/pic4.jpg">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img class="responsive-img" src="assets/images/pic5.jpg">
+                </div>
+                <div class="col s12 m6 l4">
+                    <img class="responsive-img" src="assets/images/pic6.jpg">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<footer class="m-contact">
+    <div class="container">
+        <h3 class="m-contact__tit">CONTACT</h3>
+        <p class="m-contact__tit m-contact__tit--sub mb40">联系我们</p>
+        <div class="row">
+            <div class="col s12 m6 m-contact__link">
+                <h4 class="m-contact__link__tit">IT DESIGN</h4>
+                <p>Tel：020-000000 400-000000</p>
+                <p>Mobile：130000000</p>
+                <p>QQ：258506508</p>
+                <p>Email：qinfengyunxun@163.com</p>
+                <p>Address：湖北省武汉市洪山区世界城广场写字楼1406</p>
+            </div>
+            <div class="col s12 m6">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s8">
+                                <input id="username" name="username" type="text" class="validate">
+                                <label for="username">姓名</label>
+                            </div>
+                            <div class="input-field col s8">
+                                <input id="email" name="email" type="email" class="validate">
+                                <label for="email">邮箱</label>
+                            </div>
+                            <div class="input-field col s8">
+                                <textarea id="textarea1" class="materialize-textarea" class="validate" length="20"></textarea>
+                                <label for="textarea1">内容</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<!-- 打包的js -->
+<script type="text/javascript" src="/assets/js/qfyxCom.js"></script><!--ignore-->
+
+<!--RESOURCEMAP_PLACEHOLDER-->
+<!--SCRIPT_PLACEHOLDER-->
+
+
+<script type="text/javascript">
+    require('/assets/js/common');
+    require.async('/assets/plugins/jquery/swiper/swiper.min.js', function(swiper) {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true
+        });
+    })
+</script>
+</body>
+
+
+</html>

@@ -1,0 +1,44 @@
+.c-hd .brand-logo{height:64px;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.c-hd .brand-logo img{height:80%}
+.c-hd .button-collapse .iconfont{font-size:26px}
+.m-banner{width:100%;height:650px}
+.m-banner .swiper-container{width:100%;height:100%;margin-left:auto;margin-right:auto}
+.m-banner .swiper-slide{text-align:center;font-size:18px;background:#fff;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-moz-box-align:center;-ms-flex-align:center;align-items:center}
+.m-culture .hd{margin-top:180px;margin-bottom:100px;text-align:center;color:#0E78F0}
+.m-culture .hd__tit{font-size:3rem}
+.m-culture .hd__p{font-size:2rem}
+.m-culture .cnt{padding-bottom:100px}
+.m-culture .col{padding:0 30px}
+.m-culture .img{height:240px;width:100%}
+.m-culture .cnt-tit{color:#999;font-size:20px;padding:20px 0;margin-bottom:40px;margin-top:20px;position:relative}
+.m-culture .cnt-tit:after{content:'';position:absolute;width:40px;height:2px;background-color:#0E78F0;left:0;right:0;bottom:-10px;margin:auto}
+.m-culture .cnt-txt{color:#999}
+.m-num{background-color:#0E78F0;color:#fff}
+.m-num .col{height:300px;display:-webkit-inline-box;display:-webkit-inline-flex;display:-moz-inline-box;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column nowrap;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-flow:column nowrap;flex-flow:column nowrap;-webkit-box-pack:center;-webkit-justify-content:center;-moz-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center}
+.m-num__tit{font-size:3rem;display:inline-block}
+.m-num__txt{font-size:1.2rem;display:inline-block}
+.m-prod{padding:100px 0}
+.m-prod__tit{color:#0E78F0;font-size:2rem}
+.m-prod__txt{color:#0E78F0;font-size:1.6rem}
+.m-prod__img{width:310px;height:270px;overflow:hidden}
+.m-prod__intro{font-size:1rem;color:#999;padding-right:50px}
+.m-idea{overflow:hidden;-webkit-background-size:cover;background-size:cover;background-position:center;background-repeat:no-repeat;height:300px;text-align:center;color:#fff}
+.m-idea__tit{font-size:2rem;padding-top:20px}
+.m-idea__txt{line-height:3;padding-bottom:20px}
+.m-aboutUs{padding-top:40px;padding-bottom:80px;text-align:center}
+.m-aboutUs__tit{color:#0E78F0;font-size:2rem}
+.m-aboutUs__tit--sub{font-size:1rem}
+.m-aboutUs__txt{line-height:3;padding:20px 0}
+.m-contact{background-color:#111;padding-top:40px;padding-bottom:40px;color:#999;overflow:hidden}
+.m-contact--white{background-color:#fff}
+.m-contact__tit{text-align:center;font-size:2rem;color:#fff}
+.m-contact__tit--sub{font-size:1rem}
+.m-contact input{color:#999!important}
+.m-contact__link{line-height:2}
+.m-contact__link__tit{padding-bottom:20px}
+.m-show{margin-bottom:5rem}
+.m-show .hd{text-align:center;color:#0E78F0;padding:80px 0}
+.m-show .hd p{padding:0 30%;color:#999;font-size:1rem;line-height:2}
+.m-show .hd p+p{padding-top:40px}
+.m-show .col{padding:10px}
+#map{height:500px;width:500px;margin:100px auto 0}
